@@ -9,8 +9,8 @@ spec:
   prune: true
   retryInterval: 2m0s
   sourceRef:
-    kind: ""
-    name: ""
+    kind: GitRepository
+    name: podinfo
   targetNamespace: default
   timeout: 3m0s
   wait: true
